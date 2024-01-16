@@ -1,0 +1,4 @@
+"CodigoLivro","CodigoAluno","DataEmprestimo","DataDevolucao","Status"
+"123","","","","DISPONIVEL"
+"456","7382014","2024-01-16","2024-01-23","EMPRESTADO"
+"789","","","","DISPONIVEL"

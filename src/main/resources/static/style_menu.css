@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+    background-color: #ddd; /* Background color for buttons */
+}
+
+a:hover {
+    color: #777;
+}
+
+/* Add a visual separator */
+nav a:not(:last-child) {
+    border-right: 2px solid #999;
+}
